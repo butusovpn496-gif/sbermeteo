@@ -1,1 +1,4 @@
 streamlit
+langchain_gigachat
+faiss-cpu
+pypdf
