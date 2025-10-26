@@ -57,7 +57,7 @@ def generate_response(question):
     context = '\n'.join([doc.page_content for doc in retrieved_docs])
 
     prompt_template = ChatPromptTemplate([
-        ("system", "Ты — полезный помощник. Используй следующий контекст, чтобы ответить на вопрос. "
+        ("system", "Ты — полезный помощник для вопросно ответных приложений. Используй следующий контекст, чтобы ответить на вопрос. "
                 "Если ответа нет в контексте — скажи, что не знаешь.\n\nКонтекст:\n {context}"),
         ("user", "{question}")
     ])
