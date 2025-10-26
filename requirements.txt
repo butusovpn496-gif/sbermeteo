@@ -1,4 +1,5 @@
 streamlit
 langchain_gigachat
+langchain_community
 faiss-cpu
 pypdf
